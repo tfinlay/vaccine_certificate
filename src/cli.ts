@@ -45,7 +45,7 @@ import { verifyCertificate } from './verifier'
     generateQrCode(cert, "cert.png")
 
     // Write picture out
-    await fs.writeFile("qr_avatar.jpg", cert.imageData)
+    await fs.writeFile("qr_avatar.webp", cert.imageData)
 })().then(
     () => console.log("done."),
     (ex) => {

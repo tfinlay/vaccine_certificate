@@ -51,7 +51,7 @@ export const buildCertificate = async (name: string, imagePath: string, vaccinat
     }
 
     const imageData = await sharpImage
-        .jpeg({quality: quality})
+        .webp({quality: quality})
         .toBuffer()
     
     return new VaccineCertificate({name, imageData, vaccinationStatus})
