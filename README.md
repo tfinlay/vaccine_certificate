@@ -18,7 +18,7 @@ The process to create a certificate QR code is as follows (assuming an RSA keypa
 2. Sign the `VaccineCertificate`, producing a `SignedVaccineCertificate`.
 2. Pack `SignedVaccineCertificate` into a `Buffer` using Protobuf.
 3. Compress the `Buffer` using brotli.
-4. Encoded the `Buffer` into a QR code.
+4. Encode the `Buffer` into a QR code.
 
 The decoding process is the exact reverse of steps 2-4.
 
