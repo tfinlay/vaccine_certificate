@@ -22,9 +22,18 @@ The process to create a certificate QR code is as follows (assuming an RSA keypa
 
 The decoding process is the exact reverse of steps 2-4.
 
+## Build & Run Demo
+
+This is a `yarn` project, so to get set up simply run `yarn install`.
+
+| Command      | Description                                           |
+| ------------ | ----------------------------------------------------- |
+| `yarn build` | Build the TypeScript files in `src/` into JavaScript. |
+| `yarn start` | Build and then run `demo.ts`.                         |
+
 ## Usage
 
-See [cli.ts](src/cli.ts) for a complete usage example.
+See [demo.ts](src/demo.ts) for a complete usage example.
 
 ## License
 
